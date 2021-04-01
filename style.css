@@ -35,7 +35,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-elem__wrapper {
@@ -139,7 +139,7 @@ input,button {
 }
 
 .list__input {
-  width: 226px
+  width: 226px;
 }
 
 .list__btn-delete:hover {
@@ -158,18 +158,18 @@ input,button {
 
 /* Completed */
 .completed__list .list__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .list__input {
-  display:none
+  display:none;
 }
 
 .edit-mode .list__input {
   display:inline-block;
-  width:224px
+  width:224px;
 }
 
 .edit-mode .list__label {
